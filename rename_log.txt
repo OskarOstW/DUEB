@@ -1,0 +1,287 @@
+[INFO] 2025-03-05 00:47:40 - Starte Umbenennung des Projekts von KHU zu DUEB...
+[INFO] 2025-03-05 00:47:40 - Führe Skript im korrekten Verzeichnis aus.
+[INFO] 2025-03-05 00:47:40 - Erstelle Backup des gesamten Projekts...
+[INFO] 2025-03-05 00:48:23 - Backup erstellt: WinfProjekt_backup_20250305_004740.tar.gz im übergeordneten Verzeichnis.
+[WARN] 2025-03-05 00:48:23 - Beachten Sie, dass für Dateisystempfade der Umlaut 'Ü' als 'UE' verwendet wird.
+[WARN] 2025-03-05 00:48:23 - Im Displaynamen und in Texten wird jedoch der eigentliche Umlaut 'Ü' verwendet.
+[INFO] 2025-03-05 00:48:23 - Aktualisiere kritische Konfigurationsdateien...
+[DEBUG] 2025-03-05 00:48:23 - manage.py aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - settings.py aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - wsgi.py aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - asgi.py aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - urls.py aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - apps.py aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - app.json aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - package.json aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - Android build.gradle aktualisiert
+[DEBUG] 2025-03-05 00:48:23 - AndroidManifest.xml aktualisiert
+[INFO] 2025-03-05 00:48:23 - Starte allgemeine Textersetzungen...
+[INFO] 2025-03-05 00:48:23 - Ersetze 'Digitale Übungsbeobachtung' durch 'Digitale Übungsbeobachtung' in * Dateien...
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./rename_log.txt: 1
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./khu_occurrences.txt: 10
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./KHU_frontend/screens/VictimProfileDetailScreen/VictimProfileDetailScreen.js: 1
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./KHU_frontend/screens/LoginScreen/LoginScreen.js: 1
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./KHU_frontend/screens/HomeScreen/HomeScreen.js: 2
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./KHU_frontend/App.js: 1
+[DEBUG] 2025-03-05 00:48:23 - Ersetzungen in ./KHU_backend/KHU_backend_Projekt/settings.py: 2
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/email_and_excel.py: 1
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/serializers.py: 1
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/models.py: 5
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/admin.py: 1
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/email_and_excel_victimprofiles.py: 1
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/views.py: 1
+[DEBUG] 2025-03-05 00:48:24 - Ersetzungen in ./KHU_backend/DUEBapp/urls.py: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./rename_khu_to_dueb.sh: 2
+[INFO] 2025-03-05 00:48:29 - Ersetze 'DÜB-Anwendung' durch 'DÜB-Anwendung' in * Dateien...
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./rename_log.txt: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./khu_occurrences.txt: 21
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/LoginScreen/LoginScreen.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/DynamicFormScreen/DynamicFormScreen.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/DynamicFormScreen/DynamicFormQuickSearch.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/DynamicFormScreen/DynamicFormScreenStyle.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/HomeScreen/HomeScreenStyle.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/HomeScreen/HomeScreen.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/FormEditorScreen/FormEditorScreenStyle.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/screens/FormEditorScreen/FormEditorScreen.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_frontend/App.js: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_backend/DUEBapp/pillow_utils.py: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_backend/DUEBapp/admin_excelupload.py: 1
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_backend/DUEBapp/serializers.py: 2
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_backend/DUEBapp/models.py: 2
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_backend/DUEBapp/admin.py: 2
+[DEBUG] 2025-03-05 00:48:29 - Ersetzungen in ./KHU_backend/DUEBapp/views.py: 2
+[DEBUG] 2025-03-05 00:48:30 - Ersetzungen in ./KHU_backend/DUEBapp/urls.py: 2
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./rename_khu_to_dueb.sh: 1
+[INFO] 2025-03-05 00:48:35 - Ersetze 'DUEBapp' durch 'DUEBapp' in * Dateien...
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./rename_log.txt: 15
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./khu_occurrences.txt: 585
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./copy_project_code.sh: 1
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./KHU_frontend/ios/KHUapp2024.xcodeproj/project.pbxproj: 45
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./KHU_frontend/ios/KHUapp2024.xcodeproj/xcshareddata/xcschemes/KHUapp2024.xcscheme: 12
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./KHU_frontend/ios/KHUapp2024/Info.plist: 1
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./KHU_frontend/ios/Podfile: 1
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./KHU_frontend/android/app/src/main/res/values/strings.xml: 1
+[DEBUG] 2025-03-05 00:48:35 - Ersetzungen in ./KHU_frontend/android/settings.gradle: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHU_backend_Projekt/settings.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHU_backend_Projekt/urls.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0022_formresponse_response_responseimage.py: 6
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0012_remove_alarmfaxmodel_image_alarmfaxmodel_image1_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0023_remove_response_form_response_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0005_remove_alarmfaxmodel_image_alarmfaximage.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0008_alter_alarmfaximage_alarmfax.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0049_alter_victimprofileresponse_verlauf.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0040_victimprofile_spare_col1_victimprofile_spare_col2.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0036_add_scenario_constraints.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0004_alarmfaxmodel_image.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0042_remove_testscenariovictim_unique_scenario_number_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0048_alter_victimprofileresponse_verlauf.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0007_alter_alarmfaximage_alarmfax.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0020_delete_alarmfaxmodel.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0010_imagemodel_delete_alarmfaximage.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0035_update_scenario_assignment.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0030_delete_homescreencontent.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/__pycache__/0018_form_description_question_hint_text.cpython-310.pyc: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/__pycache__/0021_alter_question_question_text.cpython-310.pyc: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0009_remove_alarmfaxmodel_image.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0037_remove_scenarioassignment_organization_and_more.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0024_form_access_code.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0028_homescreencontent.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0046_alter_victimprofileresponse_options_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0044_remove_form_access_code_observeraccount.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0018_form_description_question_hint_text.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0019_rename_description_form_description_form_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0045_victimprofileresponse.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0027_formresponse_image_11_formresponse_image_12_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0025_formresponse.py: 2
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0047_alter_victimprofileresponse_options_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0039_alter_contact_options_alter_excelupload_options_and_more.py: 8
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0015_alter_image_image.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0038_remove_testscenario_organization_and_more.py: 5
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0033_organization_testscenario_victimprofile_actor_hints_and_more.py: 4
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0026_question_hint.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0021_alter_question_question_text.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0002_rename_acoustic_signal_alarmfaxmodel_frage5akustisch_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0041_form_show_patient_profile_search.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0013_alarmfaxmodel_note.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0003_rename_frage5akustisch_alarmfaxmodel_question10bool1_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0014_form_question_option_image.py: 4
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0029_contact_homescreenimage_and_more.py: 3
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0006_alarmfaxmodel_image_alter_alarmfaximage_image.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0016_remove_option_type.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0043_remove_testscenariovictim_unique_scenario_profile.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0017_question_image_upload_desired_and_more.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0031_formresponse_note_timestamps.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0011_alarmfaxmodel_image_delete_imagemodel.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0032_excelupload_victimprofile.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/migrations/0034_alter_organization_short_code.py: 1
+[DEBUG] 2025-03-05 00:48:36 - Ersetzungen in ./KHU_backend/KHUapp/apps.py: 1
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./rename_khu_to_dueb.sh: 14
+[INFO] 2025-03-05 00:48:41 - Ersetze 'com.oskarw.duebapp' durch 'com.oskarw.duebapp' in * Dateien...
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./rename_log.txt: 1
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./khu_occurrences.txt: 22
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./KHU_frontend/ios/KHUapp2024.xcodeproj/project.pbxproj: 2
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./KHU_frontend/ios/KHUapp2024/Info.plist: 1
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./KHU_frontend/android/app/src/main/java/com/oskarw/khuapp2024/MainApplication.kt: 1
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./KHU_frontend/android/app/src/main/java/com/oskarw/khuapp2024/MainActivity.kt: 1
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./KHU_frontend/android/app/src/main/AndroidManifest.xml: 1
+[DEBUG] 2025-03-05 00:48:41 - Ersetzungen in ./KHU_frontend/android/app/build.gradle: 2
+[DEBUG] 2025-03-05 00:48:47 - Ersetzungen in ./rename_khu_to_dueb.sh: 8
+[INFO] 2025-03-05 00:48:47 - Aktualisiere Import-Pfade im Code...
+[DEBUG] 2025-03-05 00:48:48 - Import-Pfade in Python-Dateien aktualisiert
+[DEBUG] 2025-03-05 00:48:52 - Import-Pfade in JavaScript-Dateien aktualisiert
+[INFO] 2025-03-05 00:48:52 - Benenne Dateien von KHUapp zu DUEBapp um...
+[WARN] 2025-03-05 00:48:52 - Konnte Datei nicht umbenennen: ./KHU_frontend/ios/KHUapp2024.xcodeproj/xcshareddata/xcschemes/KHUapp2024.xcscheme
+[WARN] 2025-03-05 00:48:52 - Konnte Datei nicht umbenennen: ./KHU_frontend/ios/KHUapp2024/KHUapp2024.entitlements
+[INFO] 2025-03-05 00:48:52 - Benenne Verzeichnisse um...
+[DEBUG] 2025-03-05 00:48:52 - Verzeichnis umbenannt: KHU_backend/KHUapp -> KHU_backend/DUEBapp
+[DEBUG] 2025-03-05 00:48:52 - Verzeichnis umbenannt: KHU_backend/KHU_backend_Projekt -> KHU_backend/DUEB_backend_Projekt
+[DEBUG] 2025-03-05 00:48:52 - Verzeichnis umbenannt: KHU_backend -> DUEB_backend
+[DEBUG] 2025-03-05 00:48:52 - Verzeichnis umbenannt: KHU_frontend -> DUEB_frontend
+[INFO] 2025-03-05 00:48:52 - Versuche, Android-Java-Verzeichnisstruktur anzupassen...
+[DEBUG] 2025-03-05 00:48:52 - Android-Java-Verzeichnisstruktur angepasst
+[INFO] 2025-03-05 00:48:52 - Umbenennung abgeschlossen.
+[INFO] 2025-03-05 00:48:52 - -----------------------------------------------------
+[INFO] 2025-03-05 00:48:52 - Wichtige nächste Schritte:
+[INFO] 2025-03-05 00:48:52 - 1. Überprüfen Sie, ob alle Referenzen korrekt aktualisiert wurden.
+[INFO] 2025-03-05 00:48:52 - 2. Führen Sie im Backend-Verzeichnis 'python manage.py check' aus.
+[INFO] 2025-03-05 00:48:52 - 3. Testen Sie die Anwendung gründlich.
+[INFO] 2025-03-05 00:48:52 - 4. Besondere Vorsicht bei Datenbankmigrationen.
+[INFO] 2025-03-05 00:48:52 - 5. iOS-Konfiguration erfordert möglicherweise zusätzliche manuelle Anpassungen.
+[INFO] 2025-03-05 00:48:52 - -----------------------------------------------------
+[INFO] 2025-03-05 00:52:16 - Starte Umbenennung des Projekts von KHU zu DUEB...
+[ERROR] 2025-03-05 00:52:16 - Die Verzeichnisse KHU_frontend und KHU_backend wurden nicht gefunden.
+[ERROR] 2025-03-05 00:52:16 - Bitte führen Sie das Skript vom WinfProjekt-Hauptverzeichnis aus.
+[INFO] 2025-03-05 00:53:32 - Starte Umbenennung des Projekts von KHU zu DUEB...
+[INFO] 2025-03-05 00:53:32 - Führe Skript im korrekten Verzeichnis aus.
+[INFO] 2025-03-05 00:53:32 - Erstelle Backup des gesamten Projekts...
+[INFO] 2025-03-05 00:54:16 - Backup erstellt: WinfProjekt_backup_20250305_005332.tar.gz im übergeordneten Verzeichnis.
+[WARN] 2025-03-05 00:54:16 - Beachten Sie, dass für Dateisystempfade der Umlaut 'Ü' als 'UE' verwendet wird.
+[WARN] 2025-03-05 00:54:16 - Im Displaynamen und in Texten wird jedoch der eigentliche Umlaut 'Ü' verwendet.
+[INFO] 2025-03-05 00:54:16 - Aktualisiere kritische Konfigurationsdateien...
+[INFO] 2025-03-05 00:54:16 - Starte allgemeine Textersetzungen...
+[INFO] 2025-03-05 00:54:16 - Ersetze 'Digitale Übungsbeobachtung' durch 'Digitale Übungsbeobachtung' in * Dateien...
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./rename_log.txt: 2
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./khu_occurrences.txt: 10
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./rename_khu_to_dueb.sh: 2
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./DUEB_frontend/screens/VictimProfileDetailScreen/VictimProfileDetailScreen.js: 1
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./DUEB_frontend/screens/LoginScreen/LoginScreen.js: 1
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./DUEB_frontend/screens/HomeScreen/HomeScreen.js: 2
+[DEBUG] 2025-03-05 00:54:16 - Ersetzungen in ./DUEB_frontend/App.js: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/email_and_excel.py: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/serializers.py: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/models.py: 5
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/admin.py: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/email_and_excel_victimprofiles.py: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/views.py: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEBapp/urls.py: 1
+[DEBUG] 2025-03-05 00:54:17 - Ersetzungen in ./DUEB_backend/DUEB_backend_Projekt/settings.py: 2
+[INFO] 2025-03-05 00:54:22 - Ersetze 'DÜB-Anwendung' durch 'DÜB-Anwendung' in * Dateien...
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./rename_log.txt: 2
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./khu_occurrences.txt: 21
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./rename_khu_to_dueb.sh: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/LoginScreen/LoginScreen.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/DynamicFormScreen/DynamicFormScreen.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/DynamicFormScreen/DynamicFormQuickSearch.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/DynamicFormScreen/DynamicFormScreenStyle.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/HomeScreen/HomeScreenStyle.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/HomeScreen/HomeScreen.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/FormEditorScreen/FormEditorScreenStyle.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/screens/FormEditorScreen/FormEditorScreen.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_frontend/App.js: 1
+[DEBUG] 2025-03-05 00:54:22 - Ersetzungen in ./DUEB_backend/DUEBapp/pillow_utils.py: 1
+[DEBUG] 2025-03-05 00:54:23 - Ersetzungen in ./DUEB_backend/DUEBapp/admin_excelupload.py: 1
+[DEBUG] 2025-03-05 00:54:23 - Ersetzungen in ./DUEB_backend/DUEBapp/serializers.py: 2
+[DEBUG] 2025-03-05 00:54:23 - Ersetzungen in ./DUEB_backend/DUEBapp/models.py: 2
+[DEBUG] 2025-03-05 00:54:23 - Ersetzungen in ./DUEB_backend/DUEBapp/admin.py: 2
+[DEBUG] 2025-03-05 00:54:23 - Ersetzungen in ./DUEB_backend/DUEBapp/views.py: 2
+[DEBUG] 2025-03-05 00:54:23 - Ersetzungen in ./DUEB_backend/DUEBapp/urls.py: 2
+[INFO] 2025-03-05 00:54:28 - Ersetze 'DUEBapp' durch 'DUEBapp' in * Dateien...
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./rename_log.txt: 32
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./khu_occurrences.txt: 585
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./copy_project_code.sh: 1
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./rename_khu_to_dueb.sh: 14
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./DUEB_frontend/ios/KHUapp2024.xcodeproj/project.pbxproj: 45
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./DUEB_frontend/ios/KHUapp2024.xcodeproj/xcshareddata/xcschemes/KHUapp2024.xcscheme: 12
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./DUEB_frontend/ios/KHUapp2024/Info.plist: 1
+[DEBUG] 2025-03-05 00:54:28 - Ersetzungen in ./DUEB_frontend/ios/Podfile: 1
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_frontend/android/app/src/main/res/values/strings.xml: 1
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_frontend/android/settings.gradle: 1
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0022_formresponse_response_responseimage.py: 6
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0012_remove_alarmfaxmodel_image_alarmfaxmodel_image1_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0023_remove_response_form_response_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0005_remove_alarmfaxmodel_image_alarmfaximage.py: 2
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0008_alter_alarmfaximage_alarmfax.py: 2
+[DEBUG] 2025-03-05 00:54:29 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0049_alter_victimprofileresponse_verlauf.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0040_victimprofile_spare_col1_victimprofile_spare_col2.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0036_add_scenario_constraints.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0004_alarmfaxmodel_image.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0042_remove_testscenariovictim_unique_scenario_number_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0048_alter_victimprofileresponse_verlauf.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0007_alter_alarmfaximage_alarmfax.py: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0020_delete_alarmfaxmodel.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0010_imagemodel_delete_alarmfaximage.py: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0035_update_scenario_assignment.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0030_delete_homescreencontent.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/__pycache__/0018_form_description_question_hint_text.cpython-310.pyc: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/__pycache__/0021_alter_question_question_text.cpython-310.pyc: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0009_remove_alarmfaxmodel_image.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0037_remove_scenarioassignment_organization_and_more.py: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0024_form_access_code.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0028_homescreencontent.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0046_alter_victimprofileresponse_options_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0044_remove_form_access_code_observeraccount.py: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0018_form_description_question_hint_text.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0019_rename_description_form_description_form_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0045_victimprofileresponse.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0027_formresponse_image_11_formresponse_image_12_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0025_formresponse.py: 2
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0047_alter_victimprofileresponse_options_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0039_alter_contact_options_alter_excelupload_options_and_more.py: 8
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0015_alter_image_image.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0038_remove_testscenario_organization_and_more.py: 5
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0033_organization_testscenario_victimprofile_actor_hints_and_more.py: 4
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0026_question_hint.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0021_alter_question_question_text.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0002_rename_acoustic_signal_alarmfaxmodel_frage5akustisch_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0041_form_show_patient_profile_search.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0013_alarmfaxmodel_note.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0003_rename_frage5akustisch_alarmfaxmodel_question10bool1_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0014_form_question_option_image.py: 4
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0029_contact_homescreenimage_and_more.py: 3
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0006_alarmfaxmodel_image_alter_alarmfaximage_image.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0016_remove_option_type.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0043_remove_testscenariovictim_unique_scenario_profile.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0017_question_image_upload_desired_and_more.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0031_formresponse_note_timestamps.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0011_alarmfaxmodel_image_delete_imagemodel.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0032_excelupload_victimprofile.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/migrations/0034_alter_organization_short_code.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEBapp/apps.py: 1
+[DEBUG] 2025-03-05 00:54:30 - Ersetzungen in ./DUEB_backend/DUEB_backend_Projekt/settings.py: 1
+[DEBUG] 2025-03-05 00:54:31 - Ersetzungen in ./DUEB_backend/DUEB_backend_Projekt/urls.py: 1
+[INFO] 2025-03-05 00:54:36 - Ersetze 'com.oskarw.duebapp' durch 'com.oskarw.duebapp' in * Dateien...
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./rename_log.txt: 2
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./khu_occurrences.txt: 22
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./rename_khu_to_dueb.sh: 8
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./DUEB_frontend/ios/KHUapp2024.xcodeproj/project.pbxproj: 2
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./DUEB_frontend/ios/KHUapp2024/Info.plist: 1
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./DUEB_frontend/android/app/src/main/java/com/oskarw/duebapp/MainApplication.kt: 1
+[DEBUG] 2025-03-05 00:54:36 - Ersetzungen in ./DUEB_frontend/android/app/src/main/java/com/oskarw/duebapp/MainActivity.kt: 1
+[DEBUG] 2025-03-05 00:54:37 - Ersetzungen in ./DUEB_frontend/android/app/src/main/AndroidManifest.xml: 1
+[DEBUG] 2025-03-05 00:54:37 - Ersetzungen in ./DUEB_frontend/android/app/build.gradle: 2
+[INFO] 2025-03-05 00:54:41 - Aktualisiere Import-Pfade im Code...
+[DEBUG] 2025-03-05 00:54:42 - Import-Pfade in Python-Dateien aktualisiert
+[DEBUG] 2025-03-05 00:54:45 - Import-Pfade in JavaScript-Dateien aktualisiert
+[INFO] 2025-03-05 00:54:45 - Benenne Dateien von DUEBapp zu DUEBapp um...
+[INFO] 2025-03-05 00:54:45 - Benenne Verzeichnisse um...
+[INFO] 2025-03-05 00:54:45 - Versuche, Android-Java-Verzeichnisstruktur anzupassen...
+[WARN] 2025-03-05 00:54:45 - Android-Java-Verzeichnis nicht gefunden oder bereits umbenannt.
+[INFO] 2025-03-05 00:54:45 - Umbenennung abgeschlossen.
+[INFO] 2025-03-05 00:54:45 - -----------------------------------------------------
+[INFO] 2025-03-05 00:54:45 - Wichtige nächste Schritte:
+[INFO] 2025-03-05 00:54:45 - 1. Überprüfen Sie, ob alle Referenzen korrekt aktualisiert wurden.
+[INFO] 2025-03-05 00:54:45 - 2. Führen Sie im Backend-Verzeichnis 'python manage.py check' aus.
+[INFO] 2025-03-05 00:54:45 - 3. Testen Sie die Anwendung gründlich.
+[INFO] 2025-03-05 00:54:45 - 4. Besondere Vorsicht bei Datenbankmigrationen.
+[INFO] 2025-03-05 00:54:45 - 5. iOS-Konfiguration erfordert möglicherweise zusätzliche manuelle Anpassungen.
+[INFO] 2025-03-05 00:54:45 - -----------------------------------------------------

@@ -1,0 +1,50 @@
+# Python / Django
+*.py[cod]
+**pycache**/
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+db.sqlite3
+local_settings.py
+media/
+
+# Umgebungsvariablen
+.env
+**/.env
+
+# Virtuelle Umgebung (Backend)
+venv/
+
+# Node / React Native
+node_modules/
+
+# Expo (falls verwendet)
+.expo/
+.expo-shared/
+
+# React Native: iOS-spezifische Dateien
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/*.xcuserstate
+ios/*.xcodeproj/project.xcworkspace/
+
+# React Native: Android-spezifische Dateien
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+copy_project_code.sh 

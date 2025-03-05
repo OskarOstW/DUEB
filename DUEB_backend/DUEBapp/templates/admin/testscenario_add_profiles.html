@@ -1,0 +1,107 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls %}
+
+{% block extrahead %}{{ block.super }}
+<!-- CSS-Stildefinitionen für das Statistik-Panel -->
+<style type="text/css">
+    /* Statistik-Panel im Django-Admin-Style */
+    .statistics-panel {
+        margin: 20px 0;
+        background: #417690;  /* Django Admin Blau */
+        color: white;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    .statistics-header {
+        padding: 12px 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .statistics-header h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .statistics-content {
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .total-profiles {
+        flex: 1 1 100%;
+        padding: 10px;
+        background: rgba(255,255,255,0.1);
+        border-radius: 4px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .category-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        width: 100%;
+    }
+
+    .category-card {
+        background: rgba(255,255,255,0.1);
+        padding: 12px;
+        border-radius: 4px;
+        transition: background 0.3s;
+    }
+
+    .category-card:hover {
+        background: rgba(255,255,255,0.15);
+    }
+
+    .category-name {
+        font-weight: 500;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .category-count {
+        font-size: 16px;
+        opacity: 0.9;
+    }
+
+    .category-percentage {
+        font-size: 13px;
+        opacity: 0.8;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    {% if show_statistics and total_profiles > 0 %}
+    <!-- Statistik-Panel mit CSS-Klassen statt Inline-Styles -->
+    <div class="statistics-panel">
+        <div class="statistics-header">
+            <h3>Übersicht der zugewiesenen Profile</h3>
+        </div>
+        <div class="statistics-content">
+            <!-- Anzeige der Gesamtanzahl der Profile -->
+            <div class="total-profiles">
+                Gesamtanzahl: {{ total_profiles }} Profile
+            </div>
+            <!-- Aufstellung der Profilkategorien mit Anzahl und Prozentsatz -->
+            <div class="category-stats">
+                {% for stat in category_statistics %}
+                <div class="category-card">
+                    <div class="category-name">{{ stat.category }}</div>
+                    <div class="category-count">{{ stat.count }} Profile</div>
+                    <div class="category-percentage">{{ stat.percentage|floatformat:1 }}%</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <!-- Einfügen des Inhalts der Elterntemplate -->
+    {{ block.super }}
+{% endblock %}

@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Digitale Übungsbeobachtung",
+    "slug": "duebapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/KHU.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/Berlin_640-360.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oskarw.khuapp2024"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/KHU.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.oskarw.khuapp2024"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "241fe4ca-fde5-4602-99a5-8d904d3eb728"
+      }
+    }
+  }
+}
