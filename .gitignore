@@ -18,6 +18,10 @@ media/
 # Virtuelle Umgebung (Backend)
 venv/
 
+# Datenbankdateien
+DUEB_backend/data/
+DUEB_backend/db.sqlite3
+
 # Node / React Native
 node_modules/
 
